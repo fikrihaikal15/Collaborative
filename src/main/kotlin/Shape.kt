@@ -4,5 +4,5 @@ open class Shape(val length: Double, val width: Double) {
     }
 }
 
-class Rectangle(length: Double, width: Double) : Shape(length, width)
+class Rectangles(length: Double, width: Double) : Shape(length, width)
 class Square(length: Double) : Shape(length, length)
