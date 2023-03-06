@@ -1,4 +1,4 @@
-interface Animal{//Yang ISP
+interface Hewan{//Yang ISP
     fun eat()
     fun sleep()
 }
@@ -7,7 +7,7 @@ interface FlyingAnimal{
     fun fly()
 }
 
-abstract class Cat :Animal{
+abstract class Cat :Hewan{
     override fun eat() {
         println("Kucing Suka Makan ikan")
     }
