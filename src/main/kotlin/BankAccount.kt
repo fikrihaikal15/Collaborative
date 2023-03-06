@@ -1,9 +1,14 @@
-class BankAccount {
-    val Ballance:Int=50000
-    fun deposid():String{
-        return "ss"
+class BankAccount(var balance: Double) {
+    fun deposit(amount: Double) {
+        balance += amount
     }
-    fun withdraw():String{
-        return "ss"
+
+    fun withdraw(amount: Double) {
+        if (amount <= balance){
+            balance -= amount
+        } else {
+            println("try again!")
+        }
     }
+
 }
